@@ -1,0 +1,15 @@
+1)
+Linea 1: se declara variable char de tamaño 10
+Linea 2: se declara variable char de tamaño 30 y se le da un nombre
+Linea 3:En "empresa str" se guardan los valores enteros de "empresa"
+Linea 4:se imprime los datos de "empresa str"
+Linea 5:concatena el contenido de "empresa str" a "archivo"
+Linea 6:se pasa al archivo
+Linea 7: se imprime el archivo
+
+a)El código funciona ocupando espacios en memoria, al usar strcat se asegura de pcupar el menor tamaño posible.
+
+b)Usa la variable empresa str para introducir toda la informacion en ella y ocupar 10 en lugar de 30 (la idea es no ocupar memoria en vano).
+
+c) Es conveniente usar int porque ocupa menos espacio (2 bytes) que otros tipos numericos como float (4 bytes) o double (8 bytes).
+ Si, se usaría esa linea pero no se pondria "%d" (int) sino que se pondria "%.2f" (float) por ejemplo.
